@@ -1,0 +1,31 @@
+{
+	"name": "wpse-366881",
+	"version": "1.0.0",
+	"private": true,
+	"description": "WPSE 366881",
+	"author": "Sally CJ",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"block"
+	],
+	"homepage": "https://wordpress.stackexchange.com/q/366881",
+	"repository": "git+https://github.com/5ally/wpse-366881.git",
+	"bugs": {
+		"url": "https://github.com/5ally/wpse-366881/issues"
+	},
+	"engines": {
+		"node": "12.17.0"
+	},
+	"main": "build/index.js",
+	"devDependencies": {
+		"@wordpress/scripts": "^9.0.0"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:js": "wp-scripts lint-js src",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start"
+	}
+}
